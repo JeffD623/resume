@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(252, 252, 253)
+}
+
+.common {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 5px;
+    background-color: rgb(252, 252, 253);
+}
+
+.blocker {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(252, 252, 253);
+    border: 3px  rgb(252, 252, 253);
+    margin-top: -25px;
+    z-index: 1;
+}
+
+.header {
+    font-size: 35px;
+    position: fixed;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    padding: 5px;
+    border: 3px solid rgb(0, 63, 122);
+    background-color: rgb(3, 117, 151);
+    font-weight: bolder;
+    color: white;
+    z-index: 2;
+}
+
+.leftmenu {
+    border: 3px solid rgb(0, 63, 122);
+    background-color: rgb(232, 248, 255);
+    float: left;
+    position:fixed;
+    top:71px;
+    bottom:5px;
+    width: 240px;
+    margin-left: -3px;
+    padding: 5px;
+    padding-top: 10px;
+    z-index: 5;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.mainbody {
+    position: absolute;
+    top: 60px;
+    left: 270px;
+    right: 300px;
+    bottom: 39px;
+    padding-right: 5px;
+    background-color: rgb(252, 252, 253);
+    section { padding-top: 80px; }
+}
+
+.navblock {
+    position: absolute;
+    margin-top: -15px;
+    left: 270px;
+    right: 5px;
+    height: 60px;
+    border: 10px transparent;
+    z-index: 1;
+}
+
+.image {
+    position: absolute;
+    margin-left: 500px;
+    /* float: right; */
+    /* margin-right: 600px; */
+}
